@@ -1,0 +1,150 @@
+*, *::before, *::after {box-sizing: border-box}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: #DAF7F6;
+    color: #3b3b3b;
+}
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+h1,
+h2,
+h3 {
+    color: #F16059;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1em;
+    margin: 0 0 .5em 0;
+}
+
+h3 {
+    font-size: 1em;
+    padding: 3px 0 5px 10px;
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+}
+
+header img {
+    margin-right: 2em;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    overflow: auto;
+    margin: 25px 0;
+}
+
+.image,
+.recipe {
+    float: left;
+    width: 500px;
+    height: 550px;
+}
+
+.recipe {
+    padding: 1.67em;
+    background-color: #ffffff;
+}
+
+#cookies .image {
+    background-image: url("../img/gluten-free-sugar-cookies.jpg");
+    background-size: cover;
+}
+
+#pesto .image {
+    background-image: url("../img/nut-free-pesto.jpg");
+    background-size: cover;
+}
+
+#salad .image {
+    background-image: url("../img/watermelon-salad.jpg");
+    background-size: cover;
+}
+
+.time {
+    margin-bottom: 1em;
+    border: 1px solid #3b3b3b;
+    overflow: auto;
+}
+
+.time p {
+    text-transform: uppercase;
+}
+
+.time img {
+    width: 15px;
+    height: auto;
+    margin-right: .5em;
+    vertical-align: middle;
+}
+
+.time strong {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.prep,
+.cook,
+.total {
+    float: left;
+    padding-left: .5em;
+    width: 33.33%;
+}
+
+.time .cook {
+    border-left: 1px solid #3b3b3b;
+    border-right: 1px solid #3b3b3b;
+}
+
+.time-details {
+    display: inline-block;
+}
+
+.columns {
+    overflow: auto;
+}
+
+.directions {
+    float: left;
+    width: 240px;
+}
+
+.ingredients {
+    float: left;
+    width: 205px;
+    margin-right: .5em;
+}
+
+.ingredients ul {
+    list-style-type: square;
+}
+
+.ingredients ul,
+.directions ol {
+    padding-left: 1.25em;
+    line-height: 2em;
+}
